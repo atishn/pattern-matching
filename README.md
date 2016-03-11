@@ -17,7 +17,7 @@ This application reads the patterns and paths from an input file and output the 
  3. This is the single threaded application.
 
 ## Complexity
- 1. Algorithmic complexity for the shorter version of input file, (n - number of patterns/paths & m - avg, number of character in each of them) would be n*m
+ 1. Algorithmic complexity for the shorter version of input file, (n - number of patterns/paths & m - avg, number of character in each of them) would be ~ 6*n*m + 4n aka n*m
  2. For very large number of inputs, the alogrithmic complexity would be tend to ~ n.
  3. This is pretty linear program algorithmic side. The application execution time increases linearly for the increase in number of patterns or number of paths.
 
